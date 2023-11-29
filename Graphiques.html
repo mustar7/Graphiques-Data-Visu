@@ -32,13 +32,23 @@
     <div class="carousel-item__image"></div>
     <div class="carousel-item__info">
       <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">The big window </h2>
-      <h1 class="carousel-item__title">Minimal window</h1>
-      <p class="carousel-item__description">Clear Glass Window With Brown and White Wooden Frame iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-      <a href="#" class="carousel-item__btn">Read the article</a>
+      <h2 class="carousel-item__subtitle">Tableau de données </h2>
+      <h1 class="carousel-item__title">Normalisation</h1>
+      <p class="carousel-item__description">La normalisation des données  La normalisation est une méthode de prétraitement des données qui permet de réduire la complexité des modèles. Elle consiste à soustraire la moyenne et à la diviser par l'écart type.   </p>
+      <a href="#" class="carousel-item__btn">Le graphique en haut étant les variations du prix, et celui d'en-bas représente la normalisation des fluctuations du marché </a>
         </div>
     </div>
-  
+    </div>
+    <div class="carousel-item carousel-item--3">
+      <div class="carousel-item__image"></div>
+      <div class="carousel-item__info">
+        <div class="carousel-item__container">
+        <h2 class="carousel-item__subtitle">Exemple de normalisation de données</h2>
+        <h1 class="carousel-item__title">CAC 40</h1>
+        <p class="carousel-item__description">La normalisation des données de variations du prix du CAC 40 permet de mieux visualiser les fluctuations sur le marché financier</p>
+        <a href="#" class="carousel-item__btn">Explore the palms</a>
+          </div>
+      </div>
     </div>
   </div>
   
@@ -123,8 +133,8 @@ body {
 }
 
 .carousel-item__image {
-    width: 60%;
-    height: 100%;
+    width: 30%;
+    height:100%;
     order: 2;
     align-self: flex-end;
     flex-basis: 60%;
@@ -137,8 +147,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
    position:relative;
-  transform: translateX(100%);
-  transition: 0.6s all ease-in-out;
+  transform: translateX(90%);
+  transition: 1.9s all ease-in-out;
 }
 
 .carousel-item__subtitle {
@@ -147,7 +157,7 @@ body {
     font-size: 10px;
     text-transform: uppercase;
     margin: 0;
-    color: #7E7E7E;    
+    color: #686565;    
     font-weight: 700;
     transform: translateY(25%);
     opacity: 0;
@@ -160,7 +170,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 44px;
     line-height: 45px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: 700;
     color: #2C2C2C;
     transform: translateY(25%);
@@ -187,11 +197,11 @@ body {
 }
 
 .carousel-item--2 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-image: url('img/Cap2.png');
 }
 
 .carousel-item--3 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/92733/pexels-photo-92733.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-image: url('img/Cap4.png');
 }
 
 .carousel-item--4 .carousel-item__image{
@@ -271,7 +281,6 @@ body {
   transition: 0.6s all ease-in-out;
     visibility: visible;
 }
-
 
 
 .active .carousel-item__image{ 

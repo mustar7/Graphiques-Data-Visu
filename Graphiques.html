@@ -1,5 +1,5 @@
 <head>
-  <title>FlexBox Exercise #3 - Image carousel / Responsive </title>
+  <title>Image carousel / Data visualisation </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -21,10 +21,10 @@
     <div class="carousel-item__image"></div>
     <div class="carousel-item__info">
       <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">The grand moment </h2>
-      <h1 class="carousel-item__title">Le tour</h1>
-      <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-      <a href="#" class="carousel-item__btn">Explore the tour</a>
+      <h2 class="carousel-item__subtitle">Lieu de prélévement des données </h2>
+      <h1 class="carousel-item__title">Fréjus</h1>
+      <p class="carousel-item__description">Les données sont prélevées grâce à des capteurs de niveau piézométrique</p>
+      <a href="#" class="carousel-item__btn">Carte du sud de France</a>
         </div>
     </div>
   </div>
@@ -38,45 +38,15 @@
       <a href="#" class="carousel-item__btn">Read the article</a>
         </div>
     </div>
-  </div>
-    <div class="carousel-item carousel-item--3">
-    <div class="carousel-item__image"></div>
-    <div class="carousel-item__info">
-      <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">Tropical palms </h2>
-      <h1 class="carousel-item__title">Palms</h1>
-      <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-      <a href="#" class="carousel-item__btn">Explore the palms</a>
-        </div>
-    </div>
-  </div>
   
-   <div class="carousel-item carousel-item--4">
-    <div class="carousel-item__image"></div>
-    <div class="carousel-item__info">
-      <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">Beach </h2>
-      <h1 class="carousel-item__title">The beach </h1>
-      <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-      <a href="#" class="carousel-item__btn">Explore the beach</a>
-        </div>
-    </div>
-  </div>
-  
- <div class="carousel-item carousel-item--5">
-    <div class="carousel-item__image"></div>
-    <div class="carousel-item__info">
-      <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">The white building </h2>
-      <h1 class="carousel-item__title">White building</h1>
-      <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-      <a href="#" class="carousel-item__btn">Read the article</a>
-        </div>
     </div>
   </div>
   
 </div>
 </body>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="Affichage.js" > </script>
 
 <style>
 
@@ -213,9 +183,8 @@ body {
 }
 
 .carousel-item--1 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/991012/pexels-photo-991012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('img/Cap3.png');
 }
-
 
 .carousel-item--2 .carousel-item__image{
   background-image: url('https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&h=750&w=1260');
